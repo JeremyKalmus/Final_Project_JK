@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Office Random Text Generator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="../Static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../Static/CSS/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Game</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Talk to a Character</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Stats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">How it Works</a>
+        </li>
+  </div></nav>
+
+  <hr class="my-4">
+
+  <div class="container">
+    <div class="jumbotron">
+      <h2>The Game</h2>
+      <p class="lead">Can you tell the difference between real dialogue from the show or a computer generated response?</p>
+      <hr class="my-4">
+      <p>How to play:</p>
+      <p>First, choose a character. You’ll see several lines of dialogue, these will be real lines from the show, then you see several more lines, these will either be the real line from the show, or a computer generated response. You will need guess if its real or if its fake!</p>
+    </div>
+    <div class="row">
+      <div class="col">
+    <a class="btn btn-primary btn-lg" value='MICHAEL' href="/MICHAEL" role="button"><img class="img-thumbnail", src="Final_Project_JK/Static/Images/Michael.jpeg"> </br> Michael</a>
+    <a class="btn btn-primary btn-lg" value='DWIGHT' href="/DWIGHT" role="button">Dwight</a>
+    <a class="btn btn-primary btn-lg" value='JIM' href="/JIM" role="button">Jim</a>
+    <a class="btn btn-primary btn-lg" value='PAM' href="/PAM" role="button">Pam</a>
+    <a class="btn btn-primary btn-lg" value='ANDY' href="/ANDY" role="button">Andy</a>
+  </div>
+  <hr class="my-4">
+  <div class="row">
+    <div class="col">
+      <div class="card border-primary mb-3">
+        <div class="card-header">Real dialog</div>
+        <div class="card-body">
+          <h4 class="card-title">{{ current_game.user_selection }}</h4>
+          <p class="card-text"> 
+            
+            {% for line in real_lines %}
+              <strong>{{ line.Character }}</strong></br>
+              <a>{{ line.Lines }}</a></br>
+            {% endfor %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="my-4">
+
+  <div class="row">
+    <div class="col">
+    <div class="card text-white bg-info mb-3">
+      <div class="card-header">For you to Guess</div>
+      <div class="card-body">
+        <h4 class="card-title">Real or Fake</h4>
+        <p class="card-text">
+          {% for line in quiz_lines %}
+          <strong>{{ line.Character }}</strong> </br>
+          <a>{{ line.Lines }}</a></br>
+        {% endfor %}
+        </p>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="row">
+      <div class="col">
+      
+    <a class="btn btn-primary btn-lg" value='Real' href="/Guess_real" role="button">Real Dialog</a>
+    <a class="btn btn-primary btn-lg" value='Fake' href="/Guess_fake" role="button">Computer Generated Dialog</a>
+      </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
