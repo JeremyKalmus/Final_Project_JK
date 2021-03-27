@@ -1,0 +1,102 @@
+absl-py==0.12.0
+appnope @ file:///opt/concourse/worker/volumes/live/8b5bd665-fe9a-4b43-55ab-604475fcb838/volume/appnope_1606859465017/work
+astor==0.8.1
+astunparse==1.6.3
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+bleach==3.3.0
+cachetools==4.2.1
+certifi==2020.12.5
+chardet==4.0.0
+click==7.1.2
+colorama==0.4.4
+dataclasses==0.8
+decorator @ file:///home/ktietz/src/ci/decorator_1611930055503/work
+dnspython==2.1.0
+docutils==0.16
+filelock==3.0.12
+fire==0.4.0
+Flask==1.1.2
+Flask-PyMongo==2.3.0
+flatbuffers==1.12
+gast==0.2.2
+google-auth==1.28.0
+google-auth-oauthlib==0.4.3
+google-pasta==0.2.0
+gpt-2-simple==0.7.2
+grpcio==1.32.0
+h5py==2.10.0
+idna==2.10
+importlib-metadata==3.7.3
+ipykernel @ file:///opt/concourse/worker/volumes/live/43eaf185-e9cd-4e78-5afa-c19accf1339d/volume/ipykernel_1596206683810/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///opt/concourse/worker/volumes/live/8c453bb6-500b-4747-778c-a236ae4a574d/volume/ipython_1593447395779/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+itsdangerous==1.1.0
+jedi==0.17.0
+Jinja2==2.11.3
+joblib==1.0.1
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1601311786391/work
+jupyter-core @ file:///opt/concourse/worker/volumes/live/8dbe7798-2e90-4723-421b-1972b628e592/volume/jupyter_core_1612213297539/work
+Keras==2.4.3
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.2
+keras2onnx==1.7.0
+keyring==23.0.0
+Markdown==3.3.4
+MarkupSafe==1.1.1
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy==1.19.5
+oauthlib==3.1.0
+onnx==1.8.1
+onnxconverter-common==1.7.0
+opt-einsum==3.3.0
+packaging==20.9
+pandas @ file:///opt/concourse/worker/volumes/live/4a78f420-de57-4d97-543f-8ecd5647e338/volume/pandas_1602088155642/work
+parso @ file:///tmp/build/80754af9/parso_1607623074025/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+pkginfo==1.7.0
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1602688806899/work
+protobuf==3.15.6
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+Pygments @ file:///tmp/build/80754af9/pygments_1615143339740/work
+pymongo==3.11.0
+pyparsing==2.4.7
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyYAML==5.4.1
+pyzmq==20.0.0
+readme-renderer==29.0
+regex==2021.3.17
+requests==2.25.1
+requests-oauthlib==1.3.0
+requests-toolbelt==0.9.1
+rfc3986==1.4.0
+rsa==4.7.2
+sacremoses==0.0.43
+schrutepy==0.1.2
+scipy==1.5.4
+six @ file:///opt/concourse/worker/volumes/live/5839b2d2-7415-4ff0-4c61-c4cddf798f7c/volume/six_1605205320479/work
+tensorboard==1.15.0
+tensorboard-plugin-wit==1.8.0
+tensorflow==1.15.0
+tensorflow-cpu==2.4.1
+tensorflow-estimator==1.15.1
+termcolor==1.1.0
+tokenizers==0.10.1
+toposort==1.6
+tornado @ file:///opt/concourse/worker/volumes/live/cd39df49-5c81-4c95-513c-5bb83298b7ef/volume/tornado_1606942310103/work
+tqdm==4.59.0
+traitlets==4.3.3
+transformers==4.4.2
+twine==3.4.1
+typing-extensions==3.7.4.3
+urllib3==1.26.4
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+wrapt==1.12.1
+zipp==3.4.1
