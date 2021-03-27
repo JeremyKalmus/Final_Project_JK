@@ -111,4 +111,4 @@ def update_guess_fake():
     return redirect("/")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, threaded=False)
